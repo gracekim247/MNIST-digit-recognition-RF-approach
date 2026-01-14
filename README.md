@@ -32,10 +32,14 @@ The model was trained on 60,000 images and evaluated on a held-out test set of 1
 | **Validation Accuracy (Mean)** | 96.76% ($\sigma = 0.004$) |
 | **Macro Average F1-Score** | 0.97 |
 
+<img width="440" height="436" alt="Image" src="https://github.com/user-attachments/assets/052640fe-2778-48cf-a208-f1038f023c7f" />
+
 ### Error Analysis
 While performance is high, the model exhibits minor confusion on topologically similar digits, specifically:
 * **4 vs 9:** Due to the closed top loop similarity.
 * **7 vs 2:** Due to upper stroke similarities.
+
+<img width="452" height="412" alt="Image" src="https://github.com/user-attachments/assets/61c95721-1560-42ba-b1a5-6c450b3c64b1" />
 
 ## Technologies Used
 
